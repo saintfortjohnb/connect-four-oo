@@ -1,0 +1,90 @@
+* {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  color: #24AFC1;
+  font-size: 48px;
+  margin: 0;
+}
+
+#color-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 0 10px;
+  font-size: 20px;
+  padding: 8px 12px;
+  border:  2px solid #24AFC1;
+  border-radius: 5px;
+  background-color: #f1f1f1;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+  border-color: #1b7b8a;
+  box-shadow: 0 0 8px rgba(27, 123, 138, 0.3);
+}
+
+#start-game {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: #24AFC1;
+  color: white;
+  border-radius: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+#start-game:hover {
+  background-color: #1b7b8a;
+}
+
+.active-input {
+  border-width: 3px;
+}
+
+#game {
+  display: flex;
+  justify-content: center;
+}
+
+#board {
+  border-collapse: none;
+  background-color: #d3d3d3;
+}
+
+td {
+  width: 90px;
+  height: 90px;
+  border-radius: 55px;
+  border: 5px solid #58626c;
+  transition: background-color 0.3s;
+}
+
+.piece {
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+#column-top td {
+  border: dashed 1px lightgray;
+  background-color: grey;
+}
+
+#column-top td:hover {
+  background-color: gold;
+}
+
+
+
+
